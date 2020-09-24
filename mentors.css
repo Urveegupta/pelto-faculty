@@ -89,3 +89,39 @@ div.pic {
     font-size: 20px;
     color: rgb(245, 235, 235);
 }
+.fadeinleft {
+    visibility: visible;
+    animation-delay: 0.4s;
+    animation: 1s linear 1.5s fadeInLeft;
+   /* webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft; */
+}
+.fadeinright {
+    visibility: visible;
+    animation-delay: 0.4s;
+    animation: 1s linear 1.5s fadeInRight;
+}
+@keyframes slidein {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+}
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-200px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }   
+ @keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(200px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }   
