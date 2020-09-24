@@ -1,0 +1,90 @@
+html{
+    background: url("https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*
+#mainheader {
+    position: relative;
+    z-index: 50;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.06);
+}
+#mainheader div {
+    margin-top: 0px;
+    background-color: #2597d5;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}*/
+#heading {
+    position: relative;
+    margin: 160px 0px 25px calc((100% - 1000px) * 0.5);
+    left: 86px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', Verdana, sans-serif monospace;
+    color: rgb(228, 216, 50);
+    font-size: 75px;
+}
+
+ .mentorimg {
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border: 3px solid white;
+    margin: auto;
+    margin-left: 10px;
+}
+
+div.info-right {
+    display: inline-block;
+    min-height: 254px;
+    width: 65%;
+    height: 30%;
+    position: relative;
+    z-index: 2;
+    margin: 80px 20px 20px 5px;
+}
+
+
+.forbackground img{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    opacity: 0.6;
+    border: 1px solid black;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-top: 65px;
+}
+div.pic {
+    height: 420px;
+    width: 900px;
+ display: flex;
+ flex-wrap: wrap;
+ /*background-color: #1f1f1f;*/
+ padding: 2px;
+ margin: auto;
+}
+
+.mentor-name {
+    font-size: 30px;
+    text-decoration: overline solid teal 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-left: 30px;
+    text-shadow: 2px 2px 0px #FF0000;
+}
+
+.mentor-info {
+    margin-left: 40px;
+    font-size: 20px;
+    color: rgb(245, 235, 235);
+}
